@@ -1,4 +1,4 @@
-package com.demo.DailyTest;
+package com.demo.DailyTest.Basic;
 
 import java.util.Random;
 
@@ -12,7 +12,7 @@ public class RandomTest {
         }
     }
 }
-/**
+/*
  * draw a conclusion:the method will return a random number which isn't minus(>=0)
- * Obviously,the conclusion I drew had been written in the official book I learn (an expensive trash)
+ * Obviously,the conclusion I drew had been written in the official book I own (..an expensive trash)
  */
