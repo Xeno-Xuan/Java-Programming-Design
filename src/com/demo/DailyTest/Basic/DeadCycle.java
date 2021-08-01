@@ -1,4 +1,4 @@
-package com.demo.DailyTest;
+package com.demo.DailyTest.Basic;
 
 public class DeadCycle {
     public static void main(String[] args) {
