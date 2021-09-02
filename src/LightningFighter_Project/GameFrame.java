@@ -2,8 +2,9 @@ package LightningFighter_Project;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.image.*;
-import java.util.*;
+import java.awt.image.BufferedImage;
+import java.util.Random;
+import java.util.Vector;
 
 public class GameFrame extends JFrame {
     public final static int FRAME_HEIGHT = 760;
@@ -22,7 +23,6 @@ public class GameFrame extends JFrame {
         this.setLocationRelativeTo(null);
         //窗口可见
         this.setVisible(true);
-
         sp = new SourcePlane();
         sp.start();
         new Thread(new Runnable() {

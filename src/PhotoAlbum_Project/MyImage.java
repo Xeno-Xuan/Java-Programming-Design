@@ -1,5 +1,7 @@
 package PhotoAlbum_Project;
 
+import lombok.Getter;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -7,6 +9,7 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 
 public class MyImage extends JPanel {
+    @Getter
     BufferedImage img_exmp;
 
     BufferedImage []album = new BufferedImage[img_num];
