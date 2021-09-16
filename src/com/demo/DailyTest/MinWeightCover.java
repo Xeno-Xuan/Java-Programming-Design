@@ -2,7 +2,6 @@ package com.demo.DailyTest;
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Scanner;
-
 public class MinWeightCover {
 
     private static class HeapNode implements Comparable{
